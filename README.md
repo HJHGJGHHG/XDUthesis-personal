@@ -3,6 +3,13 @@
 修改了一些细节。
 （LZJ）
 
+## Usage
+&emsp;&emsp;`XeLaTex`编译`template.tex`即可。
+
+## References
+* 原作者：https://github.com/StickCui/XDUthesis-personal
+* https://github.com/fredqi/xduthesis
+
 ---
 ***以下是原作者的README。***
 本模板目前还处于测试阶段，纯属个人爱好制作；仅仅含有本科版；
@@ -43,7 +50,3 @@
 	Figure/ 图片存放文件夹
 	ThesisFiles/ 模板章节、参考文献、附录等文件夹
 注：文件夹内容不再介绍。
-
-## References
-* 原作者：https://github.com/StickCui/XDUthesis-personal
-* https://github.com/fredqi/xduthesis

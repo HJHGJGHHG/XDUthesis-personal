@@ -33,7 +33,11 @@
 \RequirePackage{ifxetex}
 \RequirePackage{xcolor}
 \RequirePackage[T1]{fontenc}
-\RequirePackage{amsmath,amssymb, bm}
+\RequirePackage{amsmath,amssymb, bm, amsfonts, latexsym, mhchem}
+
+\usepackage[flushleft]{threeparttable}
+\usepackage{makecell}
+
 \RequirePackage{makecell, caption}
 \RequirePackage{graphicx}
 \RequirePackage[amsmath,thmmarks,hyperref]{ntheorem}
