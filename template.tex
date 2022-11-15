@@ -1,0 +1,47 @@
+\documentclass{XDUthesis} %[draft]
+
+\title{面向深度学习的自适应优化算法研究}
+\author{xxx}
+\date{xxxx年xx月xx日}
+%题目拆分：用于封面
+\septitleA{面向深度学习的自适应}%如果论文题目长度<=11中文字符只需填此项即可B项空着
+\septitleB{优化算法研究}%如果论文题目长度>11中文字符, 建议拆分为10+x or 11+x 将剩余x个字符填在此处。
+\class{1903071}%班级号
+\schoolnumber{190307000xx}%学号
+\major{数据科学与大数据技术}%专业
+\school{计算机科学与技术学院}%学院
+\supervisor{xxx}%指导老师
+
+%图片搜索路径
+\graphicspath{{ThesisFiles/}{Figure/}}
+
+
+\begin{document}
+
+% 摘要
+\input{ThesisFiles/Abstract}
+
+% 往PDF属性里面写下关键词信息
+\makeatletter
+\XDU@setpdf@keywords
+\makeatother
+
+\maketitle
+
+% 文章主要部分
+\input{ThesisFiles/Chapters}
+
+% 致谢
+\input{ThesisFiles/Thanks}
+
+%参考文献
+\phantomsection%生成该页的链接
+\addcontentsline{toc}{chapter}{\bibname}
+\bibliographystyle{XDUbib}%plain IEEE
+\bibliography{ThesisFiles/RefFile}%在正文中必须引用，才能显示对应的参考文献
+
+% 附录部分 (无附录)
+\appendix
+\input{ThesisFiles/Appendix}
+
+\end{document}
