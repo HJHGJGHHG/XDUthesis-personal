@@ -4,7 +4,7 @@
 （LZJ）
 
 ## Usage
-&emsp;&emsp;`XeLaTex`编译`template.tex`即可。
+&emsp;&emsp;`XeLaTex`编译`Demo.tex`即可。
 
 ## References
 * 原作者：https://github.com/StickCui/XDUthesis-personal
