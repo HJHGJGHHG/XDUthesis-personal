@@ -5,13 +5,17 @@
 
 ## Usage
 &emsp;&emsp;`XeLaTex`编译`Demo.tex`即可。
+&emsp;&emsp;如果修改了参考文献，请按：`Xe->bibtex->Xe->Xe`编译。
 
 ## References
 * 原作者：https://github.com/StickCui/XDUthesis-personal
 * https://github.com/fredqi/xduthesis
 
----
+
 ***以下是原作者的README。***
+
+---
+
 本模板目前还处于测试阶段，纯属个人爱好制作；仅仅含有本科版；
 
 鉴于作者还是 LaTeX 的入门者；正在努力学习；会不定期维护。
